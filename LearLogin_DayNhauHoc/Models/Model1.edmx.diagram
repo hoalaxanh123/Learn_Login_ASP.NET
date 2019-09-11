@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d58d0ee5e4ec44dc835eedd5f7fea0ab" Name="Diagram1">
+        <EntityTypeShape EntityType="PhanQuyenModel.Permission" Width="1.5" PointX="8.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhanQuyenModel.RememberToken" Width="1.5" PointX="0.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhanQuyenModel.Role" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhanQuyenModel.User" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="PhanQuyenModel.FK_Permissions_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="PhanQuyenModel.FK_RememberTokens_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="PhanQuyenModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
